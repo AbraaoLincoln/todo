@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #176087;
+    /* #1D84B5 */
+}
+
+.outerDiv{
+    width: 25vw;
+    height: 80vh;
+    background-color: #FCF7F8;
+    border-radius: 40px;
+    box-shadow: 5px 5px 9px #2D2D34;
+}
+
+.innerDivList{
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+
+.innerDivBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+
+.btnCriaTarefa{
+    border-radius: 50%;
+    border: none;
+    width: 20%;
+    height: 60%;
+    background-color: #52B21A;
+    color: #FCF7F8;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.btnCriaTarefa:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.divListToDo{
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 10%;
+    width: 100%;
+}
+
+.divAddTodo{
+    position: absolute;
+    width: 90%;
+    margin-left: 5%;
+    height: 40%;
+    margin-top: 30%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black;opacity:0.6; */
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    /* border-top-left-radius: 40px; */
+    /* border-top-right-radius: 40px; */
+    border-radius: 10px;
+    border: 1px solid #2D2D34;
+    box-shadow: 2px 2px 5px #2D2D34;
+    transform: scale(0.7);
+    transition: transform 5s ease;
+}
+
+form{
+    height: 70%;
+    margin-top: 15%;
+}
+
+input{
+    height: 15%;
+}
+
+li{
+    list-style-type: none;
+    font-size: 25px;
+    color: #2D2D34;
+}
+
+li:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.btnAdicionar{
+    width: 100%;
+    height: 20%;
+    margin-top: 1%;
+    border: none;
+    background-color: #52B21A;
+    color: #FCF7F8;
+    font-weight: bold;
+}
+
+.btnAdicionar:hover{
+    cursor: pointer;
+}
+
+h2{
+    width: 80%;
+    text-align: center;
+}
