@@ -5,8 +5,11 @@
     <title>Lista de Tarefas</title>
     <style>
         h1{
-            width: 100%;
-            text-align: center;
+            /* text-align: center; */
+        }
+        table{
+            border: 1px solid black;
+            /* width:100%; */
         }
         table, th, td {
             border: 1px solid black;
@@ -16,20 +19,20 @@
             padding: 1%;
             text-align: center;
         }
-        button{
+        /* button{
             width: 100%;
             height: 10%;
-        }
+        } */
     </style>
 
 </head>
 <body>
     <h1>Tarefas a Fazer</h1>
-    <table style="border: 1px solid black;width:100%;">
+    <table>
         <tr>
             <th>Tarefa</th>
             <th>Descrição</th>
-            <th>Responsavel</th>
+            <th>Responsável</th>
             <th>Prazo</th>
         </tr>
         <tr contenteditable="true">
@@ -40,11 +43,11 @@
         </tr>
     </table>
     <h1>Tarefas em Andamento</h1>
-    <table style="border: 1px solid black;width:100%;">
+    <table>
         <tr>
             <th>Tarefa</th>
             <th>Descrição</th>
-            <th>Responsavel</th>
+            <th>Responsável</th>
             <th>Prazo</th>
         </tr>
         <tr contenteditable="true">
@@ -55,11 +58,11 @@
         </tr>
     </table>
     <h1>Tarefas Feitas</h1>
-    <table style="border: 1px solid black;width:100%;">
+    <table>
         <tr>
             <th>Tarefa</th>
             <th>Descrição</th>
-            <th>Responsavel</th>
+            <th>Responsável</th>
             <th>Prazo</th>
         </tr>
         <tr contenteditable="true">
@@ -69,7 +72,7 @@
             <td>12/03/2020 às 23h59</td>
         </tr>
     </table>
-    <h1>Adicionar Tarefa</h1>
+    <!-- <h1>Adicionar Tarefa</h1>
     <table style="border: 1px solid black;width:100%;">
         <tr>
             <th>Tarefa</th>
@@ -92,22 +95,39 @@
             </td>
         </tr>
     </table>
-    <button>Adicionar Tarefa</button>
-    <!-- <form action="">
-        <label for="tarefa">Tarefa</label>
+    <button>Adicionar Tarefa</button> -->
+    <h4>Adicionar Tarefa</h4>
+    <form action="">
+        <label for="tarefa">Tarefa:</label>
+        <br>
         <input type="text" name="tarefa">
         <br>
-        <label for="descricao">Descrição</label>
+        <label for="descricao">Descrição:</label>
+        <br>
         <textarea type="text" name="descriao"> </textarea>
         <br>
-        <label for="responsavel">Responsavel</label>
+        <label for="responsavel">Responsável:</label>
+        <br>
         <input type="text" name="responsavel">
         <br>
-        <label for="prazo">Prazo</label>
+        <label for="prazo">Prazo:</label>
+        <br>
         <input type="text" name="prazo">
         <br>
         <button>Adicionar Tarefa</button>
     </form>
-    -->
+    <form action="">
+        <h4>Remove Tarefa</h4>
+        <label for="">Lista</label>
+        <select name="" id="">
+            <option value="Afazer">A fazer</option>
+            <option value="emdamento">Em Andamento</option>
+            <option value="feitas">Feitas</option>
+        </select>
+        <br>
+        <label for="">Tarefa:</label>
+        <br>
+        <input type="text">
+    </form>   
 </body>
 </html>
