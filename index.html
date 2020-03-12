@@ -7,23 +7,23 @@
     <link rel="stylesheet" href="./css/style.css">
     <script text="text/javascript" src="./js/dynamic.js"></script>
 </head>
-<body>
+<body onload="mountList()">
     <div class="mainDiv">
         <div class="outerDiv">
             <div class="innerDivList">
                 <div class="divListToDo">
-                    <h2>Tarefas</h2>
-                    <ul>
-                        <li>tarefa1</li>
+                    <h2>Tarefas a Fezer</h2>
+                    <ul id="listOfTodos">
+                        
                     </ul>
                 </div>
                 <div class="divAddTodo">
                     <form action="">
                         <label for="novoTodo">Nova Tarefa:</label>
                         <br>
-                        <input type="text">
+                        <input type="text" id="novaTarefa">
                         <br>
-                        <button class="btnAdicionar" >Adicionar</button>
+                        <button class="btnAdicionar" onclick="addTarefa(event)">Adicionar</button>
                     </form>
                 </div>
             </div>

@@ -76,6 +76,7 @@
     box-shadow: 2px 2px 5px #2D2D34;
     transform: scale(0.7);
     transition: transform 5s ease;
+    background-color: #FCF7F8;
 }
 
 form{
