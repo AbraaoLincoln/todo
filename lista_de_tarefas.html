@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tarefas</title>
+    <style>
+        h1{
+            width: 100%;
+            text-align: center;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td{
+            padding: 1%;
+            text-align: center;
+        }
+        button{
+            width: 100%;
+            height: 10%;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Tarefas a Fazer</h1>
+    <table style="border: 1px solid black;width:100%;">
+        <tr>
+            <th>Tarefa</th>
+            <th>Descrição</th>
+            <th>Responsavel</th>
+            <th>Prazo</th>
+        </tr>
+        <tr contenteditable="true">
+            <td>Cria lista de tarefas</td>
+            <td>Cria o html para a lista de tarefas</td>
+            <td>Alunos de WEB1</td>
+            <td>12/03/2020 às 23h59</td>
+        </tr>
+    </table>
+    <h1>Tarefas em Andamento</h1>
+    <table style="border: 1px solid black;width:100%;">
+        <tr>
+            <th>Tarefa</th>
+            <th>Descrição</th>
+            <th>Responsavel</th>
+            <th>Prazo</th>
+        </tr>
+        <tr contenteditable="true">
+            <td>Cria lista de tarefas</td>
+            <td>Cria o html para a lista de tarefas</td>
+            <td>Alunos de WEB1</td>
+            <td>12/03/2020 às 23h59</td>
+        </tr>
+    </table>
+    <h1>Tarefas Feitas</h1>
+    <table style="border: 1px solid black;width:100%;">
+        <tr>
+            <th>Tarefa</th>
+            <th>Descrição</th>
+            <th>Responsavel</th>
+            <th>Prazo</th>
+        </tr>
+        <tr contenteditable="true">
+            <td>Cria lista de tarefas</td>
+            <td>Cria o html para a lista de tarefas</td>
+            <td>Alunos de WEB1</td>
+            <td>12/03/2020 às 23h59</td>
+        </tr>
+    </table>
+    <h1>Adicionar Tarefa</h1>
+    <table style="border: 1px solid black;width:100%;">
+        <tr>
+            <th>Tarefa</th>
+            <th>Descrição</th>
+            <th>Responsavel</th>
+            <th>Prazo</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="tarefa">
+            </td>
+            <td>
+                <textarea type="text" name="descriao"> </textarea>
+            </td>
+            <td>
+                <input type="text" name="responsavel">
+            </td>
+            <td>
+                <input type="text" name="prazo">
+            </td>
+        </tr>
+    </table>
+    <button>Adicionar Tarefa</button>
+    <!-- <form action="">
+        <label for="tarefa">Tarefa</label>
+        <input type="text" name="tarefa">
+        <br>
+        <label for="descricao">Descrição</label>
+        <textarea type="text" name="descriao"> </textarea>
+        <br>
+        <label for="responsavel">Responsavel</label>
+        <input type="text" name="responsavel">
+        <br>
+        <label for="prazo">Prazo</label>
+        <input type="text" name="prazo">
+        <br>
+        <button>Adicionar Tarefa</button>
+    </form>
+    -->
+</body>
+</html>
