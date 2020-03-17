@@ -28,7 +28,15 @@
                 </div>
             </div>
             <div class="innerDivBtn">
-                <button class="btnCriaTarefa" onclick="showAdd()">+</button>
+                <button class="btnCriaTarefa btnCompletada" onclick="checkAndUncheck()">C/D</button>
+                <button id="btnAddTarefa" class="btnCriaTarefa btnAdd" onclick="showAdd()">+</button>
+                <button class="btnCriaTarefa btnRemover" onclick="removeTask()">X</button>
+                <!--
+                <div class="btnsOpt">
+                    <button class="btnCriaTarefa btnCompletada">C</button>
+                    <button class="btnCriaTarefa btnRemover" onclick="removeTask()">X</button>
+                </div>
+                -->
             </div>
             <!-- <div class="innerDiv"></div> -->
         </div>

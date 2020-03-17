@@ -29,8 +29,7 @@
 
 .innerDivBtn{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     height: 20%;
     width: 100%;
 }
@@ -95,7 +94,7 @@ li{
 }
 
 li:hover{
-    text-decoration: line-through;
+    /*text-decoration: line-through;*/
     cursor: pointer;
 }
 
@@ -116,4 +115,23 @@ li:hover{
 h2{
     width: 80%;
     text-align: center;
+}
+
+.btnsOpt{
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: space-around;
+}
+
+/*.btnAdd{
+    display: none;
+}
+*/
+.btnCompletada{
+
+}
+
+.btnRemover{
+    background-color: red;
 }
